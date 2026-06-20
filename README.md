@@ -1,5 +1,7 @@
 # BarbieOS
-This repository contains the OS for a Barbie-themed smartwatch made by an Italian toy company called "Lisciani", which i like to call "BarbieOS". It is an uniquely made lightweight ARM-based system designed to run under the 512 Mebibytes of RAM it has.
+This repository contains the OS for a Barbie-themed smartwatch made by an Italian toy company called "Lisciani", which i like to call "BarbieOS". It is an uniquely made lightweight ARM-based system designed to run under the 512 Mebibytes of RAM it has. The exact reason why I wanted to make this proprietary system a repository is because for some reason when I plug the device to my PC its filesystem appears in the file explorer, plus I don't think this one is going to survive a year or even half of that (as of i'm writing this at 20/06/2026, DD/MM/YYYY) since, I said earlier that it's proprietary and I'm basically leaking this to the public.
+There are 2 folders: "LI51632" (for photos and audio) and "SD1-2" (for the actual system). These are the names of the 2 partitions used in that operating system, and said 2 partitions both use the FAT16 partition format.
 
 **Incredibly stupid warning**: Many months ago, I thought it would be idea to permanently replace the startup sound with a meme sound, so I think the original one is lost forever and ever.
-**Not so stupid warning**: I do not think there's a bootable file other than "Config.txt".
+
+**Not so stupid warning**: I do not think there's a bootable file other than "Config.txt", and i marked the .gitignore file as "no .gitignore" since I don't know what coding language it has and I'm too lazy to try to decompile this in every programming language decompiler, if there actually are one per programming language instead of all-in-one versions.
